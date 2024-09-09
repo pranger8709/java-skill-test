@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.rqchallenge.RqChallengeApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 84.793 s <<< FAILURE! - in com.example.rqchallenge.RqChallengeApplicationTests
+testGetEmployeeById_Success  Time elapsed: 10.424 s  <<< ERROR!
+java.net.SocketTimeoutException: Read timed out
+	at com.example.rqchallenge.RqChallengeApplicationTests.testGetEmployeeById_Success(RqChallengeApplicationTests.java:70)
+
+testGetAllEmployees  Time elapsed: 1.076 s  <<< ERROR!
+java.io.IOException: Failed to fetch employees. HTTP Code: 429
+	at com.example.rqchallenge.RqChallengeApplicationTests.testGetAllEmployees(RqChallengeApplicationTests.java:58)
+
